@@ -1,0 +1,25 @@
+{
+  "name": "contest",
+  "version": "1.0.0",
+  "description": "contest Javascript with Mocha",
+  "scripts": {
+    "test": "mocha --require babel-core/register"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "kata",
+    "contest"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
